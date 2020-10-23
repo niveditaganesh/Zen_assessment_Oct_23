@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <title>Form</title>
+    
+  </head>
+  <body>
+    
+    <div class="container">
+    <form >
+    <div class="row">
+    <div class="col-25">
+    <label for="fname">Full Name</label></div>
+    <div class="col-75">
+    <button class="btn"><i class="fa fa-user"></i></button>
+    <input type="text" placeholder="Full Name" id='fname' name="fname" required><br></div></div>
+
+    <div class="row">
+    <div class="col-25">
+    <label for="address1">Address Line 1</label></div><div class="col-75">
+    <button class="btn"><i class="fa fa-address-book"></i></button>
+    <input type="text" placeholder="Address Line 1" id='address1' name="address1" required><br></div></div>
+
+    <div class="row">
+    <div class="col-25">
+    <label for="fname">Address Line 2</label></div><div class="col-75">
+    <button class="btn"><i class="fa fa-address-book"></i></button>
+    <input type="text" placeholder="Address Line 2" id='address2' name="address2" required><br></div></div>
+    
+    <div class="row">
+    <div class="col-25">
+    <label for="city">City</label></div><div class="col-75">
+    <button class="btn"><i class="fa fa-building-o"style="width:20px"></i></button>
+    <input type="text" placeholder="City" id='city' name="city" required><br></div></div>
+
+    <div class="row">
+    <div class="col-25">
+    <label for="state">State/Province/Region</label></div><div class="col-75">
+    <button class="btn"><i class="fa fa-map-marker" style="width:20px"></i></button>
+    <input type="text" placeholder="State/Province/Region" id='state' name="state" required><br></div></div>
+   
+    <div class="row">
+    <div class="col-25">
+    <label for="zip">Postal Code/Zip Code</label></div><div class="col-75">
+    <button class="btn"><i class="fa fa-envelope-open-o" style="width:18px"></i></button>
+    <input type="text" placeholder="Postal Code/Zip Code" id='zip' name="zip" required><br></div></div>
+    
+    <div class="row">
+    <div class="col-25">
+    <label for="country">Country</label></div><div class="col-75" >
+    <button class="btn" ><i class="fa fa-map-o" style="width:18px"></i></button>
+    <select id='country' name="country" required>
+    <option value="select">Select Country</option>
+    <option value="india">India</option>
+    <option value="ca">Canada</option>
+    <option value="us">United States of America</option>
+    <option value="ch">China</option>
+    <option value="jp">Japan</option></select><br></div></div>
+
+    <div class="row">
+    <div class="col-25">
+    <label for="email">Email-id</label></div><div class="col-75">
+    <button class="btn"><i class="fa fa-user"></i></button>
+    <input type="email" placeholder="example@gojoe.com" id='email' name="email" required><br></div></div>
+
+    <div class="row">
+    <div class="col-25">
+    <label for="phone">Phone Number</label></div><div class="col-75">
+   <button class="btn"><i class="fa fa-user"></i></button>
+    <input type="tel" placeholder="Phone Number" id='phone' name="phone" required><br></div></div>
+    <div class="row">
+    <input type="button" value="submit" id="submit" name="submit"></div>
+</form>
+    </div>
+<script src="formscript.js"></script>
+</body>
+</html>
